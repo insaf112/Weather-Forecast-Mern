@@ -1,0 +1,27 @@
+.Toastify__toast-body {
+  /* color: #444c63;
+  
+  padding-left: 20px;
+  line-height: 10px;
+  
+  padding-top: 25px;*/
+  /* top: 3rem;
+  
+ 
+  width: 100%;
+  height: 0.5rem;
+  font-weight: 400;
+  margin-left: 25px !important; */
+  font-size: 1rem;
+}
+.Toastify__toast-container {
+  margin-top: 3rem;
+}
+.Toastify__toast {
+  --toastify-color-light: #ffffff7d;
+  --toastify-color-dark: #1212127d;
+  --toastify-color-info: #3498db7d;
+  --toastify-color-success: #07bc0d7d;
+  --toastify-color-warning: #f1c40f7d;
+  --toastify-color-error: #e74c3c7d;
+}

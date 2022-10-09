@@ -1,0 +1,160 @@
+.row2 {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  background-color: #000000e0;
+  padding: 1.5rem 2rem;
+}
+
+/* Daily Forecast */
+.daily-forecast {
+  width: 100%;
+  padding: 0;
+  margin: 0%;
+}
+.daily-forecast a {
+  text-decoration: none;
+}
+.daily-forecast .heading-forecast {
+  font-size: 1.2rem;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+.daily-forecast .heading-forecast:hover {
+  color: rgb(27, 95, 255);
+}
+
+.daily-forecast .weekly-box {
+  display: flex;
+  justify-content: center;
+  margin: 1.25rem 0;
+}
+
+.daily-forecast .days {
+  width: 8%;
+  text-align: center;
+}
+
+.daily-forecast .days .daily-progress-bar {
+  width: 0.375rem;
+  height: 8rem;
+  margin: 0.625rem auto;
+  border-radius: 0.625rem;
+  background: #0099f7;
+  background: linear-gradient(to bottom, #f11712, #0099f7);
+}
+
+.daily-forecast .days p {
+  font-size: 1rem;
+  margin: 0%;
+  font-weight: 400;
+}
+
+.daily-forecast .days i {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: lighter;
+  margin: 1rem 0;
+}
+
+/* Hourly Forecast */
+.hourly-forecast {
+  position: relative;
+  width: 100%;
+  padding-top: 1.5rem;
+}
+.hourly-forecast .swiper {
+  position: relative !important;
+  margin: 0 3rem;
+  padding: 0 0 0 4rem;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 2.187rem !important;
+  height: 2.187rem !important;
+  border-radius: 50%;
+}
+.swiper-button-prev {
+  left: 0 !important;
+}
+.swiper-button-next {
+  right: 0 !important;
+}
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: #9c9c9c71;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  position: absolute;
+  border-radius: 50%;
+  color: aliceblue;
+  font-size: 1.3rem !important;
+  outline: 0;
+}
+
+.hourly-forecast a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hourly-forecast .heading-hourly {
+  font-size: 1.2rem;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+.hourly-forecast .heading-hourly:hover {
+  color: rgb(27, 95, 255);
+}
+.hourly-forecast .hourly-box {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 3.5rem 0 5rem;
+}
+
+.hourly-forecast .hourly-box .hourly {
+  width: 12%;
+}
+
+.hourly p {
+  margin: 0%;
+}
+
+.hourly i {
+  font-size: 2rem;
+  margin: 1rem 0.31rem;
+}
+
+/* .hourly .date {
+
+  font-weight: 500;
+} */
+
+.hourly .hourly-temp {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.hourly p i {
+  font-size: 1.3rem;
+  font-weight: 300 !important;
+}
+.hourly .rain-forecast {
+  color: rgb(27, 154, 212);
+  padding-top: 0.3rem;
+}
+
+.hourly .main,
+.rain-forecast,
+.wind-gust {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.hourly .wind-gust {
+  color: aqua;
+}
+
+/* /ROW 2 */

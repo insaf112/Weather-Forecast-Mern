@@ -1,0 +1,73 @@
+.hourly-analysis {
+  color: aliceblue;
+  padding-bottom: 3rem;
+}
+.hourly-analysis .heading-hourly {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.hourly-analysis .hourly-container {
+  overflow: auto;
+  padding: 0 2rem;
+  padding-bottom: 5rem;
+}
+.hourly-analysis .hourly-box {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.hourly-analysis .hourly-box .hourly-item {
+  background-color: #1a222571;
+  border-radius: 0.31rem;
+
+  width: 100%;
+  display: flex;
+  text-align: center;
+  margin: 1rem 1rem;
+  padding: 0.625rem;
+}
+
+.hourly-analysis .hourly-box .hourly-item .bar {
+  margin: 0 1rem;
+  width: 15%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.hourly-analysis .hourly-box .hourly-item .bar .date {
+  margin-bottom: 3rem;
+  background-color: #0099f7;
+  border-radius: 2px;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.hourly-analysis .hourly-box .hourly-item p {
+  margin: 0%;
+  padding: 0%;
+  font-weight: 400;
+}
+
+.hourly-analysis .hourly-box .hourly-item .bar .bar-icon {
+  color: #fff;
+  font-size: 3rem;
+  margin: 0.625rem 0;
+}
+.bar .temp {
+  font-size: 2.7rem;
+  font-weight: 300;
+}
+.bar .description {
+  font-size: 1rem;
+}
+.bar .sub-description {
+  font-size: 0.8rem;
+  color: darkgrey;
+}
+.hourly-analysis .hourly-box .hourly-item .other-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.31rem 1rem;
+  border-left: 1px solid #a5a5a571;
+}

@@ -1,0 +1,104 @@
+.row1 {
+  height: 95vh;
+  padding: 0 2rem 1rem;
+}
+/* CITY - COUNTRY */
+.city-area {
+  margin: 0 auto;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.city-area .city-country {
+  font-size: 1.7rem;
+  /* margin-bottom: 0.5rem; */
+}
+.local-time {
+  font-size: 1rem;
+}
+/* Current temperature*/
+.current-temp-col {
+  position: absolute;
+  left: 2.5rem;
+  align-items: center;
+  bottom: 4rem;
+}
+
+.current-temp {
+  font-size: 5rem;
+  font-weight: 200;
+  word-spacing: 0.5rem;
+  display: inline-block;
+}
+
+.high-low {
+  display: inline-block;
+}
+
+.high-low p {
+  margin: 0;
+  margin-left: 1rem;
+}
+
+.high-low p i {
+  font-size: 1.56rem;
+  margin-left: 0.625rem;
+}
+
+.high-low .current-high i {
+  color: red;
+}
+
+.high-low .current-low i {
+  color: rgb(66, 201, 255);
+}
+
+.high-low-arrow-haze {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+.description {
+  display: flex;
+}
+.description .update-time {
+  /* margin: auto 0; */
+  font-size: 0.8rem;
+  padding: 0 0rem 0.25rem 1.5rem;
+}
+/* ICON & AUTHOR */
+.icon-author {
+  position: absolute;
+  bottom: 5.4rem;
+  right: 2.5rem;
+  text-align: end;
+}
+
+.icon-author i {
+  font-size: 4.5rem;
+}
+
+.icon-author .author-credits {
+  position: relative;
+  top: 2rem;
+  /* right: 1rem; */
+  font-size: 0.75rem;
+}
+.icon-author .author-credits a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 0.1rem 0.2rem;
+}
+.icon-author .author-credits a:hover {
+  background-color: #37333368;
+  border-radius: 0.1rem;
+  color: rgb(27, 95, 255);
+}
+/* Text Shadow to All whitee Fonts */
+.current-temp,
+.city-country,
+.author-credits,
+.update-time,
+.high-low-arrow-haze,
+.local-time {
+  text-shadow: 0px 0px 0.31rem #000;
+}

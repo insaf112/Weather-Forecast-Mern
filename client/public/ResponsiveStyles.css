@@ -1,0 +1,189 @@
+/* Bigger Screens */
+@media (min-width: 1025px) {
+  html {
+    font-size: 16px;
+  }
+}
+/* Laptop Screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+  html {
+    font-size: 15px;
+  }
+  /* Progress bar width 100% */
+  .row3 .uv-beaufort-aqi .uv-index,
+  .row3 .uv-beaufort-aqi .beaufort {
+    width: 100%;
+  }
+  /* Daily Increase width */
+  .row2 .daily-forecast .weekly-box .days {
+    width: 10%;
+  }
+  /* Searchbar width Increase */
+  .topbar form {
+    width: 33%;
+  }
+  .topbar .icons-div .temp-toggler,
+  .favourite-toggle,
+  .refresh-icon {
+    margin: 0 0.7rem !important;
+  }
+
+  /* increase daily forecast length when sidebar is active */
+
+  .sidebar-expand ~ .main-content .row2 .daily-forecast .weekly-box .days {
+    width: 13% !important;
+  }
+  .sidebar-expand ~ .topbar .search-bar {
+    right: 4rem;
+  }
+}
+
+/* Tablet Screens */
+@media (min-width: 481px) and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  /* Progress bar width 100% */
+  .row3 .uv-beaufort-aqi .uv-index,
+  .row3 .uv-beaufort-aqi .beaufort {
+    width: 100%;
+  }
+  /* Daily Increase width */
+  .row2 .daily-forecast .weekly-box .days {
+    width: 12%;
+  }
+
+  .topbar form {
+    /* width: 40%; */
+    width: 15rem;
+    right: 5rem;
+  }
+  .topbar .search-bar input {
+    padding: 0 1rem 0 1rem !important;
+  }
+
+  .favourites .city-container,
+  .row3 .weather-details .details-box {
+    justify-content: center;
+  }
+  .default-styles {
+    width: 100% !important;
+    left: 0 !important;
+  }
+  .sidebar-default {
+    display: none;
+  }
+}
+
+/* Smartphone Screens */
+
+@media (min-width: 200px) and (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+  /* Progress bar width 100% */
+  .row3 .uv-beaufort-aqi .uv-index,
+  .row3 .uv-beaufort-aqi .beaufort {
+    width: 100%;
+  }
+  /* Daily Increase width */
+  .row2 .daily-forecast .weekly-box .days {
+    width: 12.5%;
+    flex-wrap: wrap !important;
+  }
+
+  .row1 {
+    padding: 0 1rem 1rem !important;
+  }
+  .row1 .icon-author {
+    right: 1rem;
+  }
+  .row1 .current-temp-col {
+    left: 1rem;
+  }
+  .row2,
+  .row3 {
+    padding: 1.5rem 1rem !important;
+  }
+  .topbar form {
+    display: none !important;
+  }
+  .weather-details .details-box {
+    padding: 1.8rem 0 !important;
+  }
+  .weather-details .details-box .detail {
+    margin: 0.5rem 0.5rem;
+  }
+  .sidebar-default {
+    display: none;
+  }
+  .default-styles {
+    width: 100% !important;
+    left: 0 !important;
+  }
+  .favourites .city-container,
+  .row3 .weather-details .details-box {
+    justify-content: center;
+  }
+
+  /* Daily Analysis */
+  .daily-analysis {
+    padding: 0 !important;
+  }
+  .daily-analysis .daily-box .daily-item {
+    padding: 0 !important;
+    margin: 0.5rem 0.3rem !important;
+  }
+  .daily-analysis .daily-item .bar {
+    margin: 1rem 0.6rem !important;
+    width: 12%;
+  }
+  .daily-analysis .daily-box .daily-item .other-content {
+    padding: 0 !important;
+  }
+  /* Hourly Analysis */
+  .hourly-analysis {
+    padding: 0 !important;
+  }
+  .hourly-container {
+    padding: 0 !important;
+  }
+  .hourly-analysis .hourly-container .hourly-box .hourly-item {
+    margin: 0.5rem 0.3rem !important;
+    padding: 0.5rem 0 !important;
+  }
+  .hourly-analysis .hourly-container .hourly-box .hourly-item .bar {
+    margin: 0 0.5rem !important;
+    width: 25rem;
+  }
+  .bar .temp {
+    font-size: 2rem !important;
+  }
+  .hourly-analysis .hourly-container .hourly-box .hourly-item .other-content {
+    padding: 0 !important;
+  }
+
+  .row1 .icon-author .author-credits {
+    width: 10rem;
+    margin-bottom: 0.5rem;
+  }
+  /* Toasts */
+  .Toastify__toast {
+    min-height: auto !important;
+    border-radius: 4px !important;
+    margin-top: 1rem !important;
+  }
+  .Toastify__toast-container {
+    width: 20rem !important;
+    padding: 0 !important;
+    left: auto !important;
+    top: 12rem !important;
+  }
+  /* LOGIN/REGISTER */
+  .login .login-container {
+    padding-bottom: 10rem !important;
+  }
+  .register .dark-transparent .register-container {
+    padding-bottom: 10rem !important;
+  }
+}

@@ -1,0 +1,77 @@
+/* Air UV Beaufort */
+.uv-beaufort-aqi {
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.uv-beaufort-aqi div h1 {
+  font-size: 1.2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.progress-bar {
+  height: 0.187rem;
+}
+
+.progress {
+  background-color: #333d3f;
+  height: 0.187rem;
+}
+
+.uv-beaufort-aqi div i {
+  font-size: 3rem;
+}
+
+.uv-beaufort-aqi .uv-index,
+.beaufort {
+  width: 48.7%;
+}
+
+.uv-beaufort-aqi .aqi {
+  width: 100%;
+}
+
+.uv-beaufort-aqi div {
+  margin-bottom: 1rem;
+}
+
+.uv-beaufort-aqi div .margin-p {
+  margin: 2rem 0 1.56rem 0.625rem;
+}
+
+.uv-beaufort-aqi div p .progress-icon {
+  margin-right: 2rem;
+}
+
+.aqi .aqi-number {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: rgb(209, 38, 38);
+  margin: auto 1.5rem auto 0;
+
+  display: inline-block;
+}
+.aqi .aqi-info {
+  margin: 2rem 0 1.56rem 0.625rem;
+  display: flex;
+}
+.aqi .aqi-desc {
+  width: 93%;
+  margin: auto 0;
+}
+.aqi .aqi-info .aqi-desc p {
+  margin: 0.187rem 0 0 0;
+  font-weight: 200;
+}
+.aqi .aqi-info .aqi-desc h1 {
+  padding-top: 0.625rem;
+}
+.uv-index p i {
+  color: goldenrod;
+}
+.beaufort p i {
+  color: blueviolet;
+}

@@ -1,0 +1,44 @@
+/* Default Styles for All Pages */
+.default-styles {
+  position: absolute;
+  height: 100%;
+  top: 3rem;
+  left: 4.875rem;
+  width: calc(100% - 4.875rem);
+}
+
+/* Sidebar Expand For All Pages */
+.sidebar-expand ~ .sidebar-open {
+  left: 15.625rem;
+  width: calc(100% - 15.625rem);
+}
+
+.sidebar-expand ~ .topbar {
+  width: calc(100% - 15.625rem);
+  left: 15.625rem;
+}
+.sidebar-expand ~ .topbar .search-bar {
+  width: 15rem;
+}
+.sidebar-expand ~ .news-page .news-box .news-item {
+  width: 18rem;
+}
+/* Black Transparent Background */
+
+.dark-transparent {
+  display: flex;
+  background-color: #000000e0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+
+.sidebar-expand ~ .news-page .news-box {
+  justify-content: center;
+}
+
+.sidebar-expand ~ .main-content .row2 .daily-forecast .weekly-box .days {
+  width: 10%;
+}

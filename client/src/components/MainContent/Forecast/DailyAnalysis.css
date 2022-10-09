@@ -1,0 +1,80 @@
+.daily-analysis {
+  color: aliceblue;
+  padding-bottom: 3rem;
+}
+.daily-analysis .daily-container {
+  overflow: auto;
+  padding-bottom: 5rem;
+}
+
+.daily-analysis .daily-container .heading-daily {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.daily-analysis .daily-container .daily-box {
+  display: flex;
+  width: 100%;
+  padding: 0 2rem 1rem;
+  flex-wrap: wrap;
+}
+.daily-analysis .daily-container .daily-box .daily-item {
+  background-color: #1a222571;
+  border-radius: 0.312rem;
+
+  width: 100%;
+  display: flex;
+  text-align: center;
+  margin: 1rem 1rem;
+  padding: 0.625rem;
+}
+
+.daily-analysis .daily-container .daily-box .daily-item .bar {
+  margin: 1.2rem 2rem 0;
+  /* width: 10%; */
+  /* height: 100%; */
+  /* display: flex; */
+  /* flex-direction: column;
+  justify-content: center; */
+}
+.daily-analysis .daily-box .daily-item .bar .date {
+  margin-bottom: 1rem;
+  background-color: #0099f7;
+  border-radius: 2px;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.daily-analysis .daily-box .daily-item .daily-progress-bar {
+  width: 0.375rem;
+  height: 8rem;
+  margin: 0.625rem auto;
+  border-radius: 0.625rem;
+  background: #0099f7;
+  background: linear-gradient(to bottom, #f11712, #0099f7);
+}
+
+.daily-analysis .daily-box .daily-item p {
+  font-size: 1rem;
+  margin: 0%;
+  font-weight: 400;
+}
+
+.daily-analysis .daily-box .daily-item .bar .bar-icon {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: lighter;
+  margin: 1rem 0;
+}
+
+.daily-analysis .daily-box .daily-item .bar .sub-description {
+  font-size: 0.8rem;
+  color: darkgrey;
+}
+.daily-analysis .daily-box .daily-item .other-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 0.31rem 0.31rem 1rem 1rem;
+  width: 100%;
+  border-left: 1px solid #a5a5a571;
+}

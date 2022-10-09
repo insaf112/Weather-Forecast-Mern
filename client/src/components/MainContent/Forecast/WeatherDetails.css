@@ -1,0 +1,23 @@
+/* ROW 3 */
+.row3 {
+  padding-bottom: 3rem;
+  background-color: #000000e0;
+  padding: 1.5rem 2rem;
+}
+
+/* Details */
+
+.weather-details .heading-details {
+  font-size: 1.2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.weather-details .details-box {
+  display: flex;
+  justify-content: start;
+  flex-flow: wrap;
+  padding: 1.8rem 1.8rem 1.8rem;
+}
+
+/* /Details */

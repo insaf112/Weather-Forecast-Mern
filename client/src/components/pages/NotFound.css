@@ -1,0 +1,40 @@
+.not-found {
+  color: whitesmoke;
+  background: #141e30;
+  background: linear-gradient(to right, #262525, #434343);
+  /* font-family: "Times New Roman", Times, serif; */
+}
+.not-found .container-404 {
+  position: absolute;
+  top: 5rem;
+  right: 5rem;
+  text-align: right;
+}
+.not-found .container-404 h1 {
+  font-size: 5rem;
+  font-weight: 500;
+}
+.not-found .container-404 p {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.not-found .container-404 button {
+  position: relative;
+  padding: 0.8rem 2.5rem;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #1797f2;
+  border: none;
+  border-radius: 0.25rem;
+  margin: 2rem 0 0 0;
+  cursor: pointer;
+}
+.not-found .container-404 button:hover {
+  background-color: #1c90e2;
+}
+.not-found .container-404 button:active {
+  background-color: #1189df;
+  outline: solid 1px #0575c5;
+  padding: 0.7rem 2.4rem;
+  border-right: #0577c9 1px solid;
+}
